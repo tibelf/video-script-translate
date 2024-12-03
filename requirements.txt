@@ -1,0 +1,19 @@
+numpy>=1.20,<2.0
+openai-whisper
+deep-translator
+pydub
+SpeechRecognition
+torch
+transformers
+sentence-transformers
+
+# 日志和时间处理
+python-json-logger
+python-dateutil
+
+# 音频和视频处理
+ffmpeg-python  # 替代os.system调用
+moviepy  # 可选的视频处理库
+
+# 可选：如果需要更高级的翻译支持
+googletrans==3.1.0a0
