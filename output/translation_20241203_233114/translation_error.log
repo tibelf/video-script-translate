@@ -1,0 +1,15 @@
+错误信息: __init__() got an unexpected keyword argument 'punctuation'
+
+详细错误追踪:
+Traceback (most recent call last):
+  File "/Users/tibelf/Github/video-script-translate/main.py", line 42, in main
+    result = translator.translate_video_script(
+  File "/Users/tibelf/Github/video-script-translate/src/video_translator.py", line 50, in translate_video_script
+    transcription = self.transcriber.transcribe_audio(audio_path,segment_by_length=True)
+  File "/Users/tibelf/Github/video-script-translate/src/asr_module.py", line 30, in transcribe_audio
+    result = self.model.transcribe(audio_path, word_timestamps=True, punctuation=True)
+  File "/Users/tibelf/opt/anaconda3/envs/video-translate/lib/python3.9/site-packages/whisper/transcribe.py", line 279, in transcribe
+    result: DecodingResult = decode_with_fallback(mel_segment)
+  File "/Users/tibelf/opt/anaconda3/envs/video-translate/lib/python3.9/site-packages/whisper/transcribe.py", line 194, in decode_with_fallback
+    options = DecodingOptions(**kwargs, temperature=t)
+TypeError: __init__() got an unexpected keyword argument 'punctuation'

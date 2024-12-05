@@ -1,0 +1,7 @@
+错误信息: unsupported format string passed to NoneType.__format__
+
+详细错误追踪:
+Traceback (most recent call last):
+  File "/Users/tibelf/Github/video-script-translate/main.py", line 73, in main
+    f.write(f"{segment['start']:.2f} - {segment['end']:.2f}\t{segment['text']}\n")
+TypeError: unsupported format string passed to NoneType.__format__
