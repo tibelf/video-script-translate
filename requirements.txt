@@ -6,7 +6,6 @@ SpeechRecognition
 torch
 transformers
 sentence-transformers
-nltk  # 添加用于自然语言处理
 
 # 日志和时间处理
 python-json-logger

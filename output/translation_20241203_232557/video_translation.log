@@ -1,2 +1,0 @@
-2024-12-03 23:26:00,678 - INFO: 音频提取完成: ./media/1.MP4 -> ./output/translation_20241203_232557/extracted_audio_c5105fc4b4e24b6d83f417d6b2b7be2d.wav
-2024-12-03 23:26:04,733 - INFO: 语音转录完成，总文本长度：91

@@ -1,3 +1,0 @@
-2024-12-03 23:29:28,780 - INFO: 音频提取完成: ./media/1.MP4 -> ./output/translation_20241203_232925/extracted_audio_b96d1e3fdf2b43e9ad8f03d9aa2b8b90.wav
-2024-12-03 23:29:29,244 - ERROR: 错误发生在 音频转录 阶段: __init__() got an unexpected keyword argument 'punctuation'
-2024-12-03 23:29:29,245 - ERROR: 错误发生在 整体翻译过程 阶段: __init__() got an unexpected keyword argument 'punctuation'
