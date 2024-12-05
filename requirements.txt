@@ -4,7 +4,6 @@ deep-translator
 pydub
 SpeechRecognition
 torch
-transformers
 sentence-transformers
 
 # 日志和时间处理
@@ -17,3 +16,8 @@ moviepy  # 可选的视频处理库
 
 # 可选：如果需要更高级的翻译支持
 googletrans==3.1.0a0
+
+torch
+transformers>=4.0.0
+sentencepiece  # 用于处理文本分词
+protobuf  # transformers的依赖
